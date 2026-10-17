@@ -6,7 +6,7 @@
 
 An editorial-grade digital portfolio pairing minimalist Swiss/editorial typography with an interactive WebGL spatial environment. Built with pure vanilla technologies and real-time 3D canvas rendering.
 
-[**Explore Live Demo ↗**](https://chinmay5682.github.io/)
+[**Explore Live Demo ↗**](https://chinmay5682.github.io/portfolio/)
 
 ---
 
