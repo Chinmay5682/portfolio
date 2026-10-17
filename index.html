@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f3f1eb">
+  <meta name="description" content="Chinmay Narayan Sahoo — student, builder, and future software and AI product founder.">
+  <title>Chinmay Narayan Sahoo — Digital Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Full-page interactive 3D live wallpaper -->
+  <canvas id="bg-canvas"></canvas>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="header">
+    <a class="wordmark" href="#top">CN<span>®</span></a>
+    <nav class="nav" id="nav">
+      <a href="#philosophy">Philosophy</a>
+      <a href="#work">Selected work</a>
+      <a href="#journey">Journey</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="header-cta" href="#contact">Let’s talk <span>↗</span></a>
+    <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+  </header>
+
+  <main id="top">
+    <section class="hero wrap">
+      <div class="hero-topline"><span>STUDENT · BUILDER · CURIOUS BY DEFAULT</span><span>DELHI, INDIA · 2026</span></div>
+      
+      <!-- Editorial headline -->
+      <h1>Making sense<br>of <span class="serif">what’s next.</span></h1>
+
+      <!-- Dedicated under-text typewriter line -->
+      <div class="hero-typewriter">
+        <span class="typewriter-tag">CURRENTLY //</span>
+        <span class="typewriter-body">
+          <span class="typewriter-prefix">I’m </span>
+          <span class="typewriter-text">a Python developer.</span>
+          <span class="typewriter-cursor">|</span>
+        </span>
+      </div>
+
+      <div class="hero-bottom">
+        <p class="hero-description">I’m <strong>Chinmay Narayan Sahoo</strong> an Information Technology student at Maharaja Agrasen Institute of Technology(MAIT) exploring the space between <strong>software, cloud, and AI.</strong> I learn by building, share what I discover, and look for ideas that can become useful products.</p>
+        <a class="round-link" href="#philosophy" aria-label="Scroll to philosophy">↓</a>
+      </div>
+
+      <!-- Interactive 3D Hero Artifact Stage -->
+      <div class="hero-art" id="hero-3d-stage" aria-label="Interactive 3D Stage">
+        <div class="art-label label-one">INTERACTIVE 3D → RUNNING</div>
+        <div class="art-label label-two">WEBGL × THREE.JS</div>
+        <canvas id="hero-canvas"></canvas>
+        <div class="art-coordinate">28° 42′ N<br>77° 06′ E</div>
+        <div class="art-caption">CLICK & DRAG TO ROTATE<br>REAL-TIME RENDER</div>
+      </div>
+
+      <div class="ticker" aria-hidden="true">
+        <div class="ticker-track">
+          <span>LEARN BY DOING ✳ BUILD WITH INTENT ✳ STAY CURIOUS ✳</span>
+          <span>LEARN BY DOING ✳ BUILD WITH INTENT ✳ STAY CURIOUS ✳</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section wrap philosophy" id="philosophy">
+      <div class="section-meta"><span>01 / PHILOSOPHY</span><span>A PRACTICE, NOT A FINISH LINE</span></div>
+      <div class="philosophy-grid">
+        <h2>I don’t want to just learn technology. I want to <em>put it to work.</em></h2>
+        <div class="body-copy">
+          <p>The best learning happens when theory meets a real problem. That’s why I’m building my foundation in software development, experimenting with AI tools, and exploring cloud technologies through hands-on projects.</p>
+          <p>I’m early in the journey, and I’m comfortable saying that. My focus is to get better at the fundamentals, ship useful things, learn from feedback, and work with people who care about doing good work.</p>
+          <a class="under-link" href="#work">A few things I’m working on <span>↘</span></a>
+        </div>
+      </div>
+      <div class="principles">
+        <article><span>01</span><h3>Stay curious</h3><p>Ask better questions. Explore beyond the syllabus. Keep learning.</p></article>
+        <article><span>02</span><h3>Make it real</h3><p>Turn concepts into prototypes, experiments, and working projects.</p></article>
+        <article><span>03</span><h3>Build with people</h3><p>Share knowledge, support communities, and get better together.</p></article>
+      </div>
+    </section>
+
+    <section class="section work-section" id="work">
+      <div class="wrap">
+        <div class="section-meta"><span>02 / SELECTED WORK</span><span>IDEAS, EXPERIMENTS & PROJECTS</span></div>
+        <div class="section-heading">
+          <h2>Curiosity, <em>made tangible.</em></h2>
+          <p>Some are projects, some are experiments, and some are ideas still taking shape. I want each one to teach me something worth carrying forward.</p>
+        </div>
+        <div class="work-list">
+          <article class="work-item">
+            <div class="work-number">01</div>
+            <div class="work-visual visual-finance">
+              <div class="mini-window">
+                <div class="window-top"><i></i><i></i><i></i><span>FIN / INSIGHT</span></div>
+                <div class="chart-label">Monthly overview</div>
+                <div class="chart-bars"><b style="height:34%"></b><b style="height:57%"></b><b style="height:43%"></b><b style="height:78%"></b><b style="height:61%"></b><b style="height:92%"></b><b style="height:69%"></b></div>
+                <div class="chart-foot"><span>INCOME</span><span>EXPENSES</span><span>INSIGHTS</span></div>
+              </div>
+            </div>
+            <div class="work-info">
+              <p class="eyebrow">TEAM PROJECT · PYTHON / STREAMLIT</p>
+              <h3>Smart Finance Insights</h3>
+              <p>A finance dashboard concept designed to make expenses, budgets, and financial patterns easier to understand.</p>
+              <div class="tags"><span>Python</span><span>Streamlit</span><span>Data</span></div>
+              <a class="under-link" href="https://github.com/Chinmay5682/Chinmay-Smart-Finance-Insights" target="_blank" rel="noreferrer">Explore repository <span>↗</span></a>
+            </div>
+          </article>
+
+          <article class="work-item">
+            <div class="work-number">02</div>
+            <div class="work-visual visual-voice">
+              <div class="voice-orb"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+              <div class="voice-text">LISTEN<br>THINK<br>RESPOND</div>
+            </div>
+            <div class="work-info">
+              <p class="eyebrow">EXPERIMENT · PYTHON / AI</p>
+              <h3>Local-data voice chatbot</h3>
+              <p>An exploration of voice interaction and local information, with an eye toward lightweight tools that work in resource-constrained environments.</p>
+              <div class="tags"><span>Python</span><span>Voice UI</span><span>AI</span></div>
+              <a class="under-link" href="https://github.com/Chinmay5682" target="_blank" rel="noreferrer">Still working not yet published<span>↗</span></a>
+            </div>
+            <div class="work-number end-number">02</div>
+          </article>
+
+          <article class="work-item">
+            <div class="work-number">03</div>
+            <div class="work-visual visual-focus">
+              <div class="focus-ring"><div class="focus-center">FOCUS<br><b>25:00</b></div></div>
+              <div class="focus-side">LESS DISTRACTION<br>MORE INTENTION</div>
+            </div>
+            <div class="work-info">
+              <p class="eyebrow">PRODUCT IDEA · PRODUCTIVITY</p>
+              <h3>Focus-control tool</h3>
+              <p>A productivity concept exploring focus sessions, progress feedback, and ways to make distraction-free work easier to sustain.</p>
+              <div class="tags"><span>Product thinking</span><span>Web</span><span>UX</span></div>
+              <a class="under-link" href="https://github.com/Chinmay5682" target="_blank" rel="noreferrer">Still working not yet published<span>↗</span></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section wrap profile-section" id="journey">
+      <div class="section-meta"><span>03 / THE JOURNEY</span><span>PEOPLE ARE PART OF THE PROCESS</span></div>
+      <div class="profile-grid">
+        <div>
+          <h2>Technology is built by people, <em>for people.</em></h2>
+          <p class="profile-intro">My earlier college experience at AIT DSEU taught me that building something meaningful is not only about code. It’s also about communication, consistency, and bringing people together.</p>
+          <div class="profile-stamp">CURRENT CHAPTER<br><b>MAIT · B.TECH IT</b><br>CLASS OF 2029</div>
+        </div>
+        <div class="journey-list">
+          <article><span>EXPERIENCE 01</span><div><h3>E-Cell, AIT DSEU</h3><p>Contributed to student entrepreneurship initiatives, coordination, and campus engagement. It helped me practise ownership, teamwork, and communicating ideas.</p></div></article>
+          <article><span>EXPERIENCE 02</span><div><h3>GFG x Microsoft Community</h3><p>Helped grow a learning and opportunity-focused community reaching 700+ members, sharing resources, events, and development opportunities. Now community is closed due to some reasons 😢.</p></div></article>
+          <article><span>NOW</span><div><h3>Learning through building</h3><p>Strengthening fundamentals in Python, web development, cloud, and AI while looking for opportunities to contribute to meaningful projects.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section credentials-section">
+      <div class="wrap">
+        <div class="section-meta"><span>04 / TOOLKIT & LEARNING</span><span>ALWAYS UNDER CONSTRUCTION</span></div>
+        <div class="credentials-grid">
+          <div>
+            <h2>Learning is the work. <em>Evidence matters.</em></h2>
+            <p>My current toolkit is a starting point, not a claim to mastery. I’m working to pair every new skill with something I can explain, demonstrate, or share.</p>
+            <div class="skill-cloud">
+              <span>Python</span><span>HTML / CSS</span><span>JavaScript</span><span>Git & GitHub</span><span>Streamlit</span><span>Cloud fundamentals</span><span>AI tools</span><span>Prompt design</span><span>Community coordination</span>
+            </div>
+          </div>
+          <div class="credential-list">
+            <a href="https://skillsprofile.skillbuilder.aws/user/chinmay-narayan-sahoo/certification-badges" target="_blank" rel="noreferrer"><span class="cred-index">A</span><span><b>AWS Skill Builder</b><small>Learning badge / training</small></span><span class="arrow">↗</span></a>
+            <a href="https://www.skills.google/public_profiles/b8806f1c-70b1-47a6-bc7c-bb49ad442eef" target="_blank" rel="noreferrer"><span class="cred-index">G</span><span><b>Google Cloud Skills Boost</b><small>Cloud learning and Arcade</small></span><span class="arrow">↗</span></a>
+            <a href="https://www.credly.com/users/chinmay-narayan-sahoo.f628798c" target="_blank" rel="noreferrer"><span class="cred-index">C</span><span><b>Digital credentials</b><small>Link verified badges here</small></span><span class="arrow">↗</span></a>
+            <a href="https://lnkd.in/p/gT23QC6c" target="_blank" rel="noreferrer"><span class="cred-index">I</span><span><b>Infosys Springboard</b><small>Coursework and learning</small></span><span class="arrow">↗</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="future-section">
+      <div class="wrap future-inner">
+        <p class="eyebrow">05 / WHAT’S NEXT</p>
+        <h2>From student projects<br>to <em>useful products.</em></h2>
+        <div class="future-bottom">
+          <p>My long-term goal is to become a strong software and AI product builder who understands cloud infrastructure, solves real problems, and eventually creates products of my own.</p>
+          <a class="circle-cta" href="#contact">LET’S<br>CONNECT <span>↗</span></a>
+        </div>
+        <div class="future-steps">
+          <div><span>01 / NOW</span><b>Strengthen fundamentals</b></div>
+          <div><span>02 / NEXT</span><b>Build and ship</b></div>
+          <div><span>03 / LATER</span><b>Learn with a team</b></div>
+          <div><span>04 / LONG TERM</span><b>Create useful products</b></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section wrap" id="contact">
+      <div class="section-meta"><span>06 / SAY HELLO</span><span>OPEN TO LEARNING & COLLABORATION</span></div>
+      <h2>Have a good idea?<br><em>Let’s explore it.</em></h2>
+      <p>I’m always happy to connect with people building in software, cloud, and AI — or anyone who believes in learning by doing.</p>
+      <div class="contact-links">
+        <a href="https://www.linkedin.com/in/chinmay-narayan-sahoo-035112297/" target="_blank" rel="noreferrer">LinkedIn <span>↗</span></a>
+        <a href="https://github.com/Chinmay5682" target="_blank" rel="noreferrer">GitHub <span>↗</span></a>
+        <a href="https://twitter.com/Chinmay5682" target="_blank" rel="noreferrer">Twitter <span>↗</span></a>
+        <a href="https://leetcode.com/u/Cz6NETSQKK/" target="_blank" rel="noreferrer">LeetCode <span>↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="wordmark" href="#top">CN<span>®</span></a>
+    <span>Designed as a work in progress. © 2026 Chinmay Narayan Sahoo</span>
+    <a href="#top">BACK TO TOP ↑</a>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
